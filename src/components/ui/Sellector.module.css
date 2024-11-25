@@ -1,0 +1,75 @@
+
+
+.sellector {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    height: 100vh;
+}
+
+.box-selector {
+    height: 64px;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    margin-top: 158px;
+    align-items: center;
+    background-color: white;
+    
+}
+
+.box-list-selector {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.main-box-selector {
+    margin-left: 50px;
+}
+
+.box-item-selector {
+    background-color: white;
+    padding: 20px;
+}
+
+.box-item-selector:hover{
+    background-color: rgb(238, 238, 238);
+
+}
+
+.select-control {
+    height: 100%;
+    border: none;
+}
+
+.todo-text {
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    position: absolute;
+    top: 70px;
+    justify-content: space-between;
+    letter-spacing: 15px;
+    display: flex;
+    font-weight: 700;
+    width: 100%;
+    align-items: center;
+}
+
+.theme-switch {
+    margin: 10px;
+    scale: 2;
+    fill: rgb(97, 97, 97);
+    background-color: white;
+    border-radius: 50%;
+}
+
+.theme-switch:hover {
+    scale: 2.2;
+}
+

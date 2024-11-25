@@ -1,0 +1,46 @@
+:root {
+  --base-color: white;
+  --base-variant: #e8e9ed;
+  --text-color: black;
+  --secondary-text: #232738;
+  --primary-color: #0040ff;
+  --accent-color: #0071ff;
+}
+
+* {
+  padding:0;
+  margin:0;
+}
+
+.darkmode{
+  --base-color: black;
+  --base-variant: #101425;
+  --text-color: ffffff;
+  --secondary-text: #a4a5b8;
+  --primary-color: #3a435d;
+  --accent-color: #0071ff;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--base-color);
+}
+
+#theme-switch:hover {
+  scale: 1.2;
+}
+
+#theme-switch {
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: var(--base-variant);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#theme-switch.svg {
+  fill: var(--primary-color);
+}
